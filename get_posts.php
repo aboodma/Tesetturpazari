@@ -15,6 +15,7 @@ $date_now=date("Y-m-d");
 //echo $t=time();
  $t=localtime();
  $localtime_assoc = localtime(time(), true);
+ // here Will Change The time to local Time The Time on Server Plus The 8 Hours
  $local=$localtime_assoc[tm_hour]+8;
  //echo "$local";echo ":$localtime_assoc[tm_min]";
  $min=date("i");
