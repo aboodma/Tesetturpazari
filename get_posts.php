@@ -43,7 +43,7 @@ if ($result->num_rows > 0) {
         //echo $row['text'];echo "  Tarih:"; echo $row['date']; echo "   Time:"; echo $row['time'];
         echo "<br>";
       //  echo "$fileimg";
-          include 'instagram_autopost.php';
+          include 'photoupload.php';
 
           include 'Update_Status.php';
       }else {
